@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html id="hback">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--[if lt IE 9]>
 			<script src="dist/html5shiv.js"></script>
 		<![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Ribeye+Marrow|Reenie+Beanie' rel='stylesheet' type='text/css'>
@@ -20,16 +20,16 @@
 		<div class="navbar-fixed">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="#"class="brand-logo"><img src="images/logo-4.svg" alt="Love From Naima"></a>
+					<a href="index.html"class="brand-logo"><img src="images/logo-4.svg" alt="Love From Naima"></a>
 					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="#">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 					<ul class="side-nav" id="mobile-demo">
-						<li><a href="#">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
@@ -38,43 +38,41 @@
 			</nav>
 		</div>
 
-		<section>
-			<div class="slider">
-				<ul class="slides">
-					<li class="images">
-						<img src="images/dates.bmp" alt="cakes">
-						
-					</li>
-					<li class="images">
-						<img src="images/img2.jpg" alt="cakes">
-						
-					</li>
-					<li class="images">
-						<img src="images/img3.jpg" alt="cakes">
-						
-					</li>
-					<li class="images">
-						<img src="images/img4.jpg" alt="cakes">
-						
-					</li>
-				</ul>
-			</div>
-		</section>
+		<section id="about">
+			
+				<div class="container" id="our-history">
+					<h1 class="center-align">About Us</h1>
+					<img src="images/logo-4.svg" alt="logo" class="logo2 img-responsive">
 
-		<section>
-			<header>
-				<div class="container" id="for-logo">
 					<div class="row">
-						<div class="col s12 m12 l12 header">
-							<h1 class="center-align">Love From Naima</h1>
-							<h3 class="reenie center-align">Bespoke food hampers for any occasion.</h3>
+						<div class="col s12 m12 l12">
+							<h3>Our Story</h3>
+							<p><span class="flow-text">
+								Love From Naima started in my living room in August 2015 and was named after my daughter. I have always been passionate about ethical trading and making sure that as consumers we take ownership of who we support and help expand. Naima herself is extremely concerned about the environment and how our consumption of energy is having a negative effect on the world we live in. I hoped that by naming Love From Naima after her, I would be able to embody some of her spirit into our business' ethics and morals.
+							</span></p>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col s12 l6 m6">
+							<h3>Our Products</h3>
+							<p>
+								At Love From Naima we make sure that all of our products are fair trade and our packaging is biodegradable to try and minimalise the harm we are causing to the environment.
+								our tea suppliers in particular are members of the Ethical Tea Partnership which works to make sure all plantation workers are given adequate training, have a fair living wage and a safe working environment. 
+							</p>
+						</div>
+						<div class="col s12 l6 m6">
+							<h3>Our Specialty</h3>
+							<p>
+								We specialise in bespoke hamper fillers which take into consideration London's rich cultural influences. Sugar cane, Tamarind balls, baklava and Caribbean spiced bun are just some of the fillers which have been popular choices for customers.
+								All our products are available to be delivered nationwide or picked up locally from our central London location. 
+							</p>
+						</div>
+					</div> <!--/.row-2-->	
 				</div>
-				
-				
-			</header>
+			
+			
 		</section>
+
 
 		<footer class="page-footer">
 			<div class="container">
@@ -101,7 +99,7 @@
 				</div>
 			</div>
 		</footer>
-	
+		
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <script src="js/script.js"></script>
