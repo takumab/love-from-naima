@@ -148,7 +148,7 @@ footer.page-footer {
 
  #sizes {
  	font-family: 'Reenie Beanie', cursive;
- 	font-size: 1.5em;
+ 	font-size: 1.7em;
  	color: #603813;
 
  }
@@ -159,6 +159,10 @@ footer.page-footer {
  	font-family: 'Reenie Beanie', cursive;
  	color: #603813;
 
+ }
+
+ #con {
+  font-size: 1.7em;
  }
 
  .email-us {
